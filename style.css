@@ -117,8 +117,8 @@ body {
 
 .shop-now {
     width: 15%;
-    min-width: 180px;
-    height: 54px;
+    min-width: 200px;
+    min-height: 74px;
     background-color: transparent;
     border: 2px solid white;
     color: white;
