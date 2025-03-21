@@ -1,0 +1,494 @@
+
+
+body {
+    font-family: 'Oswald' !important;
+    background-color: black !important;
+}
+
+.banner {
+    background-image: url(first-photo.avif);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 110vh;
+    background-position: center;
+}
+
+.banner-h1 {
+    font-size: 80px;
+    font-weight: 400;
+    margin-top: 90px;
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+.shop-anchor,
+.about-anchor,
+.group-anchor,
+.contact-anchor,
+.log-in-anchor {
+    color: rgb(162, 156, 156) !important;
+}
+
+.shop-anchor:hover {
+    color: white !important;
+}
+
+.about-anchor:hover {
+    color: white !important;
+}
+
+.group-anchor:hover {
+    color: white !important;
+}
+
+.contact-anchor:hover {
+    color: white !important;
+}
+
+.log-in-anchor:hover {
+    color: rgb(117, 114, 113) !important;
+}
+
+.nav_white {
+    color: rgb(162, 156, 156) !important;
+}
+
+.nav_white:link {
+    color: rgb(162, 156, 156) !important;
+}
+
+.search-icon {
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-left: -45px;
+    padding: 0;
+    border: none;
+    z-index: 5;
+    position: relative;
+}
+
+.search-box-mobile {
+    display: none !important;
+    width: 100% !important;
+}
+
+
+
+.nav_search {
+    border: none;
+    border-bottom: 2px solid rgb(162, 156, 156);
+    position: relative;
+    margin-right: 28px !important;
+}
+
+.nav_search:hover {
+    background: rgba(0, 0, 0, 1) !important;
+    border-bottom: 3px solid white !important;
+    opacity: 1 !important;
+}
+
+.nav_search:focus {
+    background: rgba(0, 0, 0, 1) !important;
+    border-bottom: 3px solid white !important;
+    opacity: 1 !important;
+    outline: none;
+}
+
+
+.nav-background {
+    background-color: rgb(21, 20, 20) !important;
+}
+
+#user_icon {
+    width: 22px;
+    height: 22px;
+    color: rgb(162, 156, 156) !important;
+}
+
+.change-my-color {
+    fill: rgb(189, 183, 183);
+}
+
+.cart-font {
+    font-size: 82px !important;
+}
+
+.shop-now {
+    width: 15%;
+    min-width: 180px;
+    height: 54px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 24px;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    transition-duration: .3s;
+}
+
+.shop-now:hover {
+    color: black;
+    background-color: white;
+    transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -ms-transition-duration: .3s;
+    -o-transition-duration: .3s;
+}
+
+.sec2_div2 {
+    background-image: url(bag_with_camera.avif);
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+}
+
+.arrivals {
+    height: 80vh;
+}
+
+
+
+.model-1,
+.model-2,
+.model-3 {
+    height: 540px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kkk,
+.kkkk,
+.kkkkk {
+    position: absolute;
+    color: white;
+    opacity: 0;
+    width: max-content;
+    height: max-content;
+    transition: ease-in;
+    transition-duration: .3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.mod-1:hover~.kkk,
+.mod-2:hover~.kkkk,
+.mod-3:hover~.kkkkk {
+    opacity: 1;
+}
+
+
+
+.mod-1,
+.mod-2,
+.mod-3 {
+    object-fit: cover;
+    transition: ease-in;
+    transition-duration: 0.5s;
+    height: 100%;
+    width: 100%;
+    scale: 110%;
+    position: relative !important;
+}
+
+
+
+.mod-1:hover,
+.mod-2:hover,
+.mod-3:hover {
+    transform: scale(1.1);
+    -webkit-transition-duration: 0.5s;
+    filter: brightness(50%);
+}
+
+
+
+.pointer {
+    cursor: pointer;
+    ;
+}
+
+.bag-box {
+    height: 70vh;
+}
+
+.canva-backpack,
+.technical-pack,
+.camo-backpack {
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    width: 220px;
+    height: 70px;
+    line-height: 20px;
+    opacity: 0;
+}
+
+.canva-backpack:hover,
+.camo-backpack:hover,
+.technical-pack:hover {
+    color: rgb(138, 136, 135);
+    border-color: rgb(174, 171, 167);
+    transition-duration: .3s;
+}
+
+
+.visible1,
+.visible2,
+.visible3 {
+    color: white;
+    font-size: 32px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.wrapper,
+.wrapper2,
+.wrapper3 {
+    overflow: hidden;
+}
+
+.wrapper3 {
+    align-self: flex-start;
+}
+
+.wrapper:hover>p {
+    animation-name: dissapear;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+}
+
+.wrapper:hover>button {
+    animation-name: apear;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+    animation-delay: .5s;
+}
+
+.wrapper2:hover>p {
+    animation-name: dissapear;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+}
+
+.wrapper2:hover>button {
+    animation-name: apear;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+    animation-delay: .5s;
+}
+
+.wrapper3:hover>p {
+    animation-name: dissapear;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+}
+
+.wrapper3:hover>button {
+    animation-name: apear;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+    animation-delay: .5s;
+}
+
+@keyframes dissapear {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes apear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.banner-2 {
+    background-image: url(wide-photo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner2-text {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.form-style {
+    height: 65vh;
+    width: 70%;
+}
+
+.form-1 {
+    order: 1;
+}
+
+.form-2 {
+    order: 2;
+}
+
+.footer-br {
+    display: none;
+}
+
+.footer-general {
+    height: 2vh !important;
+}
+
+
+.wix-anchor:link {
+    color: white !important;
+    color: rgb(162, 156, 156) !important
+}
+
+.subscribe-btn {
+    background-color: rgb(20, 20, 20);
+    border: 3px solid white;
+
+}
+
+.subscribe-btn:hover {
+    color: #948d8d !important;
+    border: 3px solid #948d8d !important;
+    transition-duration: .3s;
+}
+
+.send-btn {
+    color: white;
+    border: 3px solid white;
+}
+
+.send-btn:hover {
+    color: #948d8d !important;
+    border: 3px solid #948d8d !important;
+    transition-duration: .3s;
+}
+
+
+.mail-h1 {
+    font-size: 52px;
+}
+
+.footer-style {
+    height: 18vh;
+    color: rgb(162, 156, 156);
+    background-color: rgb(26 25 25);
+    flex-direction: row !important;
+}
+
+.mailing-list {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+
+}
+
+.socials {
+    display: flex;
+    width: 106px;
+    height: 206px;
+    background-color: rgba(0, 0, 0, .4);
+    position: fixed;
+    z-index: 5;
+    top: 35%;
+    right: 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.scroll-arrow {
+    margin-top: 80px;
+    transition: ease-out;
+}
+
+.contact-us {
+    width: 64px;
+    height: 64px;
+    background-color: rgba(0, 0, 0, .4);
+    position: fixed;
+    z-index: 5;
+    top: 85%;
+    right: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* GROUPS.HTML */
+
+.group-div {
+    height: 95vh !important;
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.groups-banner {
+    height: 20vh;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.groups-slogan {
+    color: #eee6e6;
+}
+
+.header-text {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-weight: 100;
+    line-height: 14px !important;
+}
+
+.header-text-2 {
+    font-weight: 400;
+    line-height: 14px !important;
+}
+
+
+.groups-search {
+    height: 50vh;
+    width: 30%;
+    border: 1px solid rgba(81, 79, 79, 0.6);
+    overflow-y: scroll;
+}
+
+.search-border {
+    border-bottom: 1px solid rgba(81, 79, 79, 0.6) !important;
+}
+
+.search-anchor {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 18px;
+}
+
+.search-anchor:hover {
+    text-decoration: underline !important;
+}
+
+
+.join-btn:hover {
+    text-decoration: underline !important;
+}
+
+.posts {
+    height: 40vh;
+    width: 60%;
+    border: 1px solid rgba(81, 79, 79, 0.6);
+}
+
+.hidden-br {
+    display: none;
+}

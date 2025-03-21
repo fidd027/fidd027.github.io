@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md nav-background pb-4 fixed-top opacity-75 nav-general">
+    <div class="container-fluid nav-background">
+      <div class="d-flex brand-name ms-5 mt-2">
+        <a class="navbar-brand text-color  me-0 text-lg fs-1" style="color: rgb(162, 156, 156); outline: none;"
+          href="index.html">THE</a>
+        <a class="navbar-brand text-color ms-0 text-lg fs-1" style="color: white;" href="index.html">NORTHPOLE</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="togler-icon.png" alt="">
+      </button>
+      <div class="collapse navbar-collapse justify-content-end mt-3" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown active me-2 shop-anchor" aria-current="page" role="button"
+              data-bs-toggle="dropdown" href="#">SHOP</a>
+            <ul class="dropdown-menu bg-black ">
+              <li><a class="dropdown-item text-white" href="#">BACKPACKS</a></li>
+              <li><a class="dropdown-item text-white" href="#">DUFFLE BAGS</a></li>
+              <li><a class="dropdown-item text-white" href="#">TRAVEL PACKS</a></li>
+              <li><a class="dropdown-item text-white" href="#">GIFT CARDS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link about-anchor me-2 " href="#about-us">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link group-anchor me-2 " href="groups.html">GROUP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link contact-anchor me-2 " href="#contact">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex flex-row search-box">
+              <input class="nav_search nav-background text-white me-3 " style="height: 42px;" type="search"
+                placeholder="SEARCH...">
+              <div class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                  class="bi bi-search" viewBox="0 0 16 16">
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex mt-1 fs-5 ">
+              <svg class="change-my-color mt-2 pointer" data-bbox="0 0 50 50" data-type="shape"
+                xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 50 50">
+                <g>
+                  <path
+                    d="M25 48.077c-5.924 0-11.31-2.252-15.396-5.921 2.254-5.362 7.492-8.267 15.373-8.267 7.889 0 13.139 3.044 15.408 8.418-4.084 3.659-9.471 5.77-15.385 5.77m.278-35.3c4.927 0 8.611 3.812 8.611 8.878 0 5.21-3.875 9.456-8.611 9.456s-8.611-4.246-8.611-9.456c0-5.066 3.684-8.878 8.611-8.878M25 0C11.193 0 0 11.193 0 25c0 .915.056 1.816.152 2.705.032.295.091.581.133.873.085.589.173 1.176.298 1.751.073.338.169.665.256.997.135.515.273 1.027.439 1.529.114.342.243.675.37 1.01.18.476.369.945.577 1.406.149.331.308.657.472.98.225.446.463.883.714 1.313.182.312.365.619.56.922.272.423.56.832.856 1.237.207.284.41.568.629.841.325.408.671.796 1.02 1.182.22.244.432.494.662.728.405.415.833.801 1.265 1.186.173.154.329.325.507.475l.004-.011A24.886 24.886 0 0 0 25 50a24.881 24.881 0 0 0 16.069-5.861.126.126 0 0 1 .003.01c.172-.144.324-.309.49-.458.442-.392.88-.787 1.293-1.209.228-.232.437-.479.655-.72.352-.389.701-.78 1.028-1.191.218-.272.421-.556.627-.838.297-.405.587-.816.859-1.24a26.104 26.104 0 0 0 1.748-3.216c.208-.461.398-.93.579-1.406.127-.336.256-.669.369-1.012.167-.502.305-1.014.44-1.53.087-.332.183-.659.256-.996.126-.576.214-1.164.299-1.754.042-.292.101-.577.133-.872.095-.89.152-1.791.152-2.707C50 11.193 38.807 0 25 0">
+                  </path>
+                </g>
+              </svg>
+              <a class="nav-link me-2 mb-0 log-in-anchor " href="#">Log In</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex mt-1 fs-5 ">
+              <svg class="change-my-color mt-2 me-5 pointer" xmlns="http://www.w3.org/2000/svg" version="1.1"
+                width="50px" height="24px" viewBox="221.4 359.3 267 123" data-hook="svg-icon-8">
+                <rect x="221.4" y="403.7" width="152.4" height="10"></rect>
+                <path
+                  d="M345.9 482.3h-96.4c-1.2 0-2.4-1.2-3-2.4l-19.6-70.8 6-1.8 19.1 68.5h92.3l19-68.5 6 1.8 -19.6 70.8C348.2 481.1 347 482.3 345.9 482.3z">
+                </path>
+                <rect x="259" y="380.1" transform="matrix(-0.527 -0.8498 0.8498 -0.527 109.9867 827.3946)" width="52.4"
+                  height="10"></rect>
+                <rect x="292.3" y="424.5" width="10.7" height="10.7"></rect>
+                <rect x="315.5" y="424.5" width="10.7" height="10.7"></rect>
+                <rect x="269.1" y="424.5" width="10.7" height="10.7"></rect>
+                <rect x="292.3" y="447.7" width="10.7" height="10.7"></rect>
+                <rect x="315.5" y="447.7" width="10.7" height="10.7"></rect>
+                <rect x="269.1" y="447.7" width="10.7" height="10.7"></rect><text class="cart-font" x="390" y="474"
+                  text-anchor="start" class="uxskpx M846Y_" data-hook="items-count">0</text>
+              </svg>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="d-flex flex-row search-box-mobile">
+    <input class="nav_search nav-background text-white me-3 w-100 ms-2 me-2 " style="height: 42px;" type="search"
+      placeholder="SEARCH...">
+    <div class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+        class="bi bi-search" viewBox="0 0 16 16">
+        <path
+          d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+      </svg>
+    </div>
+  </div>
+  <div class="socials flex-column">
+    <a href="https://www.facebook.com/wix"><img src="fb-image.avif" alt=""></a>
+    <a href="https://www.youtube.com/user/Wix"><img class="mt-2" src="yout-image.avif" alt=""></a>
+    <a href="https://www.instagram.com/accounts/login/?next=%2Fwix%2F&source=omni_redirect"><img class="mt-2"
+        src="inst-image.avif" alt=""></a>
+  </div>
+  <div class="contact-us d-flex flex-column">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-chat-square-dots-fill"
+      viewBox="0 0 16 16">
+      <path
+        d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.5a1 1 0 0 0-.8.4l-1.9 2.533a1 1 0 0 1-1.6 0L5.3 12.4a1 1 0 0 0-.8-.4H2a2 2 0 0 1-2-2zm5 4a1 1 0 1 0-2 0 1 1 0 0 0 2 0m4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+    </svg>
+  </div>
+  <div class="container-md-fluid d-flex p-0 mt-3 banner ">
+    <h1 class="text-center text-white banner-h1">PLAN YOUR ADVENTURE</h1>
+    <button class="shop-now" type="button">SHOP NOW</button>
+    <a class=" scroll-arrow " href="#new-arrivals"><svg xmlns="http://www.w3.org/2000/svg" width="66" height="66"
+        fill="white" class="bi bi-chevron-down" viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+      </svg></a>
+  </div>
+  <div class="container-fluid d-md-flex p-0 m-0" id="new-arrivals">
+    <div
+      class="container-md d-flex  justify-content-center align-items-center text-white bg-black flex-column arrivals">
+      <h1 style="font-size: 72px; font-weight: 400; text-align: center;">NEW ARRIVALS</h1>
+      <button class="shop-now" type="button">SHOP NOW</button>
+    </div>
+    <div class="container sec2_div2">
+    </div>
+  </div>
+  <div class="container-fluid d-md-flex  p-0 m-0 overflow-hidden">
+    <div class="container-md w-100 model-1 ">
+      <img class="mod-1 m-0 p-0" src="model-1.png" alt="guy with backpack1 ">
+      <div class="kkk">
+        <h1>BACKPACKS</h1>
+      </div>
+    </div>
+    <div class="container-md model-2">
+      <img class="mod-2 m-0 p-0" src="model-2.png" alt="guy with backpack2 ">
+      <div class="kkkk">
+        <h1>DUFFLE BAGS</h1>
+      </div>
+    </div>
+    <div class="container-md model-3">
+      <img class="mod-3 m-0 p-0" src="model-3.png" alt="guy with backpack3 ">
+      <div class="kkkkk">
+        <h1>TRAVEL PACKS</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid ">
+    <div class="container-fluid d-flex justify-content-center align-items-center text-white bg-black flex-column">
+      <div class="mt-2">
+        <h1 style="font-size: 55px; font-weight: 400; text-align: center;margin-top: 90px; letter-spacing: 4px;">NOW ON
+          SALE</h1>
+      </div>
+      <div class="mt-3">
+        <h3 style=" font-weight: 300; text-align: center; font-family: Georgia, serif;">UP TO 50% OFF</h3>
+      </div>
+    </div>
+    <div
+      class="item-1 container-fluid d-md-flex justify-content-center align-items-start text-white bg-black mb-5 bag-box ">
+      <div class="d-flex flex-column justify-content-center align-items-center mt-5 wrapper  ">
+        <img src="backpack-1.webp" alt="backpack-canvas">
+        <p class="visible1">CANVAS BACKPACK <br>__<br><br><span
+            style="text-decoration: line-through;font-size: 16px;">$75.00</span> <span
+            style="font-size: 16px;">$67.50</span></p>
+        <button class="canva-backpack fs-3" type="button">View Details</button>
+      </div>
+      <div class=" item-2 d-flex flex-column justify-content-center align-items-center mt-5 wrapper2">
+        <img src="backpack-2.webp" alt="backpack-technical">
+        <p class="visible2">TECHNICAL PACK <br>__<br><br><span
+            style="text-decoration: line-through;font-size: 16px;">$130.00</span> <span
+            style="font-size: 16px;">$104.00</span></p>
+        <button class="technical-pack fs-3" type="button">View Details</button>
+      </div>
+      <div class="d-flex flex-column justify-content-center align-items-center mt-5 wrapper3 ">
+        <img src="backpack-3.webp" alt="backpack-camo">
+        <p class="visible3">CAMO BACKPACK <br>__<br><br><span
+            style="text-decoration: line-through;font-size: 16px;">$130.00</span> <span
+            style="font-size: 16px;">$104.00</span></p>
+        <button class="camo-backpack fs-3" type="button">View Details</button>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid d-md-flex p-0 m-0 banner-2">
+    <div class="container-fluid opacity-75 bg-dark  d-flex"
+      style="height: 100vh; justify-content: center; align-items: center;">
+      <div class=" me-5"></div>
+      <div class="d-flex flex-column banner2-text align-items-start " id="about-us">
+        <h1 style="color: white; letter-spacing: 2px;">ABOUT US</h1>
+        <p style="color: white; font-size: 22px; letter-spacing: 2px;">I'm a paragraph. Click here to add your own text
+          and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to
+          the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+      </div>
+    </div>
+    <div class="container-fluid disapear-div">
+    </div>
+  </div>
+  <div class="container-fluid d-md-flex form-general p-0 m-0">
+    <div class="container-fluid bg-black mt-5 form-1 mb-3 ">
+      <form class="form-style row g-3 text-white fs-5 border-white  bg-black ms-auto me-5  mt-5 mb-5">
+        <div class="col-md-6">
+          <label for="inputName" class="form-label">First Name*</label>
+          <input type="text" class="form-control rounded-0 bg-black" id="inputName">
+        </div>
+        <div class="col-md-6">
+          <label for="inputSurname" class="form-label">Last Name*</label>
+          <input type="text" class="form-control rounded-0 bg-black" id="inputSurname">
+        </div>
+        <div class="col-md-12">
+          <label for="inputEmail4" class="form-label">Email*</label>
+          <input type="email" class="form-control rounded-0 bg-black" id="inputEmail">
+        </div>
+        <div class="col-12">
+          <label for="inputSubject" class="form-label">Subject</label>
+          <input type="text" class="form-control rounded-0 bg-black" id="Subject">
+        </div>
+        <div class="col-12 mb-5 ">
+          <label for="inputMesage" class="form-label">Message</label>
+          <input type="text" class="form-control rounded-0 bg-black h-100 p-4" st id="Meage">
+        </div>
+        <div class="col-md-6 d-flex ms-auto mb-5 ">
+          <button type="submit"
+            class="btn btn-black text-white rounded-0 w-100 bg-black align-items-end p-2 fs-5 send-btn"
+            style="border: 2px solid white;">Send</button>
+        </div>
+      </form>
+    </div>
+    <div class="container-fluid bg-black form-2">
+      <div class="w-50 ms-5 " style="margin-top: 80px;" id="contact">
+        <h1 class="text-white fw-normal" style=" letter-spacing: 4px; font-size: 60px; margin-bottom: 40px;">CONTACT
+        </h1>
+        <p class="text-white" style=" font-size: 20px; letter-spacing: 2px;">I'm a paragraph. Click here to add your own
+          text and edit me. I’m a great place for you to tell a story and let your users know a little more about
+          you.<br><br> info@my-domain.com <br> Tel: 1-800-000-0000</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid d-flex flex-column text-white " style="height: 60vh; background-color: rgb(20,20,20);">
+    <div class=" d-flex justify-content-center fw-normal ">
+      <h1 class="text-white mt-5 fw-normal mail-h1">JOIN OUR MAILING LIST</h1>
+    </div>
+    <div class=" d-flex justify-content-center fw-normal  mt-3">
+      <h2 class="text-white" style="font-family: Georgia, 'Times New Roman', Times, serif;">AND NEVER MISS AN UPDATE
+      </h2>
+    </div>
+    <div class="container-md d-flex w-50 mailing-input flex-column">
+      <label for="inputEmail4" class="form-label fs-4 mt-3">Enter your email here*</label>
+      <input type="email" class="form-control d-flex rounded-0 " style="background-color: rgb(20,20,20) ;"
+        id="inputEmail">
+    </div>
+    <div class="container-md d-flex w-50 mailing-input flex-row mt-3">
+      <input class="form-check-input pt-0 rounded-0 me-3 " style="background-color: rgb(20,20,20) ;" type="checkbox"
+        id="gridCheck">
+      <label class="form-check-label mt-0 fs-6" style="font-family: sans-serif" for="gridCheck">Yes, subscribe me to
+        your newsletter.*</label>
+    </div>
+    <div class="container-md d-flex w-50 mailing-input flex-row mt-3   ">
+      <button type="submit"
+        class="btn container-md text-white border-white rounded-0 fs-5 subscribe-btn mt-3 mb-5">SUBSCRIBE NOW</button>
+    </div>
+  </div>
+  </div class="container-fluid footer-general">
+  <footer class="container-fluid d-flex justify-content-around footer-style">
+    <div class="d-flex  align-items-center justify-content-end footer-1  me-5"><span>© 2035 by NORTHPOLE.<br
+          class="footer-br"> Powered and secured by <a class="wix-anchor"
+          href="https://www.wix.com/?utm_campaign=vir_created_with">Wix</a></span>
+    </div>
+    <div class="d-flex align-items-center footer-2">
+      <ul class="navbar-nav d-flex flex-row  ">
+        <li class="nav-item me-3">
+          <a class="nav-link active me-2 text-decoration-underline " aria-current="page" href="#">FAQ</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link me-2 text-decoration-underline " href="#">Groups</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link me-2 text-decoration-underline" href="#">Shipping & Returns</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link me-2 text-decoration-underline  " href="#">Terms & Conditions</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
