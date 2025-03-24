@@ -141,7 +141,7 @@ body {
 }
 
 .sec2_div2 {
-    background-image: url("Photos/bag_with_camera.avif");
+    background-image: url("./Photos/bag_with_camera.avif");
     background-size: cover;
     background-position: center;
     min-height: 50vh;
@@ -319,7 +319,7 @@ body {
 }
 
 .banner-2 {
-    background-image: url("Photos/wide-photo.jpg");
+    background-image: url("./Photos/wide-photo.jpg");
     background-size: cover;
     background-position: center;
 }
