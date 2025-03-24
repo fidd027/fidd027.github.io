@@ -9,7 +9,7 @@ body {
 }
 
 .banner {
-    background-image: url(Photos/first-photo.avif);
+    background-image: url(../Photos/first-photo.avif);
     background-size: cover;
     justify-content: center;
     align-items: center;
