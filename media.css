@@ -176,4 +176,57 @@
         width: 45vh !important;
         padding: 0 !important;
     }
+
+        /* shop.html */
+
+    .left-bar{
+        display: none;
+    }
+
+    .scale{
+        width: 90vw !important;
+        height: 90vw !important;
+        justify-self: center;
+    }
+
+    .resp-shop{
+        width: 100vw !important;
+        margin: 0 !important;
+        margin-left: 0 !important;
+        padding: 0 !important;
+        overflow: hidden !important;
+        margin-left: 0px !important;
+
+    }
+
+    .main-block{
+        width: 100vw !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-left: 0px !important;
+    }
+
+    .br-dissapear {
+        display: none !important;
+    }
+
+    .responsive-left-bar{
+        min-width: 90vw !important;
+        
+        
+    }
+
+    .shop-banner {
+        width: 90vw !important;
+        justify-content: center !important;
+        align-items: center !important;
+        
+        
+    }
+
+    .all-products{
+        width: 90vw !important;
+    }
+
 }
